@@ -90,7 +90,7 @@ function Footer() {
           <h1 className="text-md font-semibold">Links</h1>
           {Links.map((e, index) => (
             <Link to={e.href}>
-              <li key={index} className="text-sm text-[#d5d5d5]">
+              <li key={index} className="text-sm text-[#d5d5d5] hover:text-white">
                 {e.title}
               </li>
             </Link>
@@ -100,7 +100,7 @@ function Footer() {
           <h1 className="text-md font-semibold">Resources</h1>
           {Resources.map((e, index) => (
             <Link to={e.href}>
-              <li key={index} className="text-sm text-[#d5d5d5]">
+              <li key={index} className="text-sm text-[#d5d5d5] hover:text-white">
                 {e.title}
               </li>
             </Link>
@@ -110,7 +110,7 @@ function Footer() {
           <h1 className="text-md font-semibold">Company</h1>
           {Companys.map((e, index) => (
             <Link to={e.href}>
-              <li key={index} className="text-sm text-[#d5d5d5]">
+              <li key={index} className="text-sm text-[#d5d5d5] hover:text-white">
                 {e.title}
               </li>
             </Link>
