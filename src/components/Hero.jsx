@@ -27,6 +27,7 @@ function Hero() {
       <Collaborations />
       <div className="my-8 w-[80%] h-fit">
         <img
+        loading='lazy'
           src="/assets/dashboard-image.jpg"
           alt="Dashhboard-Image"
           className="object-cover object-center w-auto rounded-lg"
