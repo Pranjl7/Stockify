@@ -47,10 +47,10 @@ const Navbar = () => {
       </div>
 
       <div className="flex space-x-2 text-sm font-semibold">
-        <button className="border rounded-md px-4 py-1 cursor-pointer">Log in</button>
-        <button className="border rounded-md px-4 py-1.5 bg-slate-900 text-white cursor-pointer">
+        <button className="border border-slate-200 rounded-md px-4 py-1 cursor-pointer">Log in</button>
+        <Link to="/app" className="border border-transparent rounded-md px-4 py-1.5 bg-slate-900 text-white cursor-pointer hover:bg-slate-800 transition">
           Try for free
-        </button>
+        </Link>
       </div>
     </nav>
   );
