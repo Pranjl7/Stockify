@@ -1,6 +1,6 @@
-![Stockify Hero](./public/assets/stockify.png)
+![Stockify Hero](./frontend/public/assets/stockify.png)
 
-![Stockify Pricing](./public/assets/stockify-pricing.png)
+![Stockify Pricing](./frontend/public/assets/stockify-pricing.png)
 
 # Stockify - Landing Page
 
